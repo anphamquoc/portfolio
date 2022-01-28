@@ -1,0 +1,32 @@
+[
+  {
+    "tags": ["developer", "skills"],
+    "title": "Structure for best SEO result",
+    "description": "Cách để tối ưu website sử dụng semantic HTML tags để chuẩn bị nội dung cho việc tìm kiếm trang web dễ dàng. Hiện nay SEO là một cấp độ lớn có thể nhìn thấy trong trang web; nhưng có nhiều website không sử dụng semantic HTML5 tags để tối ưu khả năng đọc của máy móc.",
+    "link": "https://www.notion.so/86adc30434654bb7881a72055ccc9eaf?v=f998bc71c8114d0fba4feda8c87d4f9e&p=bf0356fb71204625833ec973e9a23dbb"
+  },
+  {
+    "tags": ["trick", "javascript"],
+    "title": "10 Modern JavaScript Tricks Every Developer Should Use",
+    "description": "Cách để code JS nhanh nhất mà nhà lập trình JS nào cũng nên thử qua",
+    "link": "https://www.notion.so/86adc30434654bb7881a72055ccc9eaf?v=f998bc71c8114d0fba4feda8c87d4f9e&p=9989d2e1c1634d68af283fc779f566b1"
+  },
+  {
+    "tags": ["CSS", "trick"],
+    "title": "Loader CSS",
+    "description": "Khi người dùng đợi khi website bạn loading, hãy dùng các cách này để người dùng hứng thú hơn",
+    "link": "https://dev.to/afif/i-made-100-css-loaders-for-your-next-project-4eje"
+  },
+  {
+    "tags": ["Roadmap", "backend"],
+    "title": "Zero to Hero: backend developer roadmap 2021",
+    "description": "Bạn không cần phải chi 10,000 dollar trên Bootcamp để trở thành lập trình viên backend. Bạn chỉ cần học: Node, Express, SQL, NoSQL, REST, JSON, APIs hoặc công nghệ mới nhất, bạn có thể học miễn phí, tận dụng sức mạnh của internet.",
+    "link": "https://www.notion.so/86adc30434654bb7881a72055ccc9eaf?v=f998bc71c8114d0fba4feda8c87d4f9e&p=484b47b780ca4fc9b44c83f78bc6830f"
+  },
+  {
+    "tags": ["Roadmap", "Frontend"],
+    "title": "2021 Zero to Hero: Front End developer Roadmap",
+    "description": "Đây là một lộ trình cho lập trình viên Front-end, với 15 nguồn miễn phí, để thúc đẩy nghề nghiệp của bạn và bắt đầu kiếm tiền từ kĩ năng phát triển.Bạn sẽ bắt đầu từ những thứ thiết yếu của lập trình, học biến là cái gì và cách dữ liệu lưu trữ. Bạn sẽ tiếp tục tạo ra một trang web đầu tiên, thêm một tí tương tác với Javascript và làm đẹp với CSS.",
+    "link": "https://www.notion.so/86adc30434654bb7881a72055ccc9eaf?v=f998bc71c8114d0fba4feda8c87d4f9e&p=271ef3076c4e421c86640fc8865338a2"
+  }
+]

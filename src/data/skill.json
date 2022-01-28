@@ -1,0 +1,28 @@
+[
+  {
+    "image": "/skill/apollo.svg",
+    "description": "apollo"
+  },
+  {
+    "image": "/skill/cpp.svg",
+    "description": "cpp"
+  },
+  {
+    "image": "/skill/css.svg",
+    "description": "css"
+  },
+  {
+    "image": "/skill/firebase.svg",
+    "description": "firebase"
+  },
+  { "image": "/skill/git.svg", "description": "git" },
+  { "image": "/skill/graphql.svg", "description": "graphql" },
+  { "image": "/skill/html.svg", "description": "html" },
+  { "image": "/skill/mongodb.svg", "description": "mongodb" },
+  { "image": "/skill/javascript.svg", "description": "javascript" },
+  { "image": "/skill/mysql.svg", "description": "mysql" },
+  { "image": "/skill/nextjs.svg", "description": "nextjs" },
+  { "image": "/skill/nodejs.svg", "description": "nodejs" },
+  { "image": "/skill/postgresql.svg", "description": "postgresql" },
+  { "image": "/skill/react.svg", "description": "react" }
+]
