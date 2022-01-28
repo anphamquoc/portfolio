@@ -32,7 +32,7 @@ export const NavBar: React.FC<NavBarProps> = () => {
           <span className="name">Blog</span>
         </NavLink>
       </div>
-      <a href="https://github.com/hello5423" className="github">
+      <a href="https://github.com/hello5423/portfolio" className="github">
         <i className="far fa-code-merge"></i>
         <i className="far fa-star"></i>
       </a>
