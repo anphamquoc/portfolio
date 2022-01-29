@@ -3,7 +3,7 @@ import GitHubCalendar from "react-github-calendar";
 
 const DayCode = () => {
   return (
-    <div className="skillset">
+    <div className="skillset daycode">
       <h1>
         Days I <span className="purple">Code</span>
       </h1>

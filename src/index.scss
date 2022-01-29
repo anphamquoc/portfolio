@@ -12,6 +12,14 @@ a {
   text-decoration: none;
   color: white;
 }
+@media screen and (max-width: 1200px) {
+  h1 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 15px;
+  }
+}
 /* navigation */
 nav {
   display: flex;
@@ -19,13 +27,15 @@ nav {
   align-items: center;
   justify-content: space-around;
   position: fixed;
+  margin-bottom: 20px;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 100;
+  transition: 0.1s ease;
 
   &.active {
-    background: #1f1d33;
+    background: rgba($color: #1f1d33, $alpha: 0.98);
   }
   a {
     display: flex;
@@ -54,6 +64,10 @@ nav {
       font-size: 19px;
       cursor: pointer;
 
+      @media screen and (max-width: 1000px) {
+        flex-direction: column;
+      }
+
       &:hover {
         color: $purple;
       }
@@ -70,6 +84,56 @@ nav {
     border-radius: 10px;
     cursor: pointer;
   }
+
+  .menu-responsive {
+    display: none;
+  }
+
+  @media screen and (max-width: 750px) {
+    & {
+      justify-content: space-between;
+      position: fixed;
+      background-color: #1f1d33;
+    }
+    img {
+      margin-left: 20px;
+    }
+    .menu,
+    .github {
+      display: none;
+    }
+
+    .menu-responsive {
+      display: block;
+      position: relative;
+      bottom: 0;
+      padding-right: 20px;
+      padding-top: 20px;
+      .mobile {
+        font-size: 30px;
+        cursor: pointer;
+      }
+      .menu-mobile {
+        display: none;
+        &.active {
+          position: absolute;
+          right: 0;
+          bottom: 150;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background-color: #1f1d33;
+          .navlink {
+            padding: 10px;
+            background: none;
+            display: flex;
+            gap: 10px;
+          }
+        }
+      }
+    }
+  }
 }
 
 //////////////Home page//////////////
@@ -80,6 +144,7 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+
   .detail {
     display: flex;
     flex-direction: column;
@@ -101,6 +166,32 @@ nav {
     height: 500px;
     margin-left: 200px;
   }
+  @media screen and (max-width: 1200px) {
+    .home {
+      width: 300px;
+      height: 300px;
+      margin-left: 100px;
+    }
+    .detail {
+      width: 40%;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+
+    .detail {
+      width: 100%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .home {
+      margin-left: 0;
+    }
+  }
 }
 
 //home2-page{
@@ -117,6 +208,21 @@ nav {
       text-align: center;
       font-size: 41px;
       font-weight: 500;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    img {
+      width: 150px;
+      height: 170px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    gap: 0;
+    img {
+      display: none;
+    }
+    .introduce {
+      width: 90%;
     }
   }
 }
@@ -160,7 +266,6 @@ nav {
   display: flex;
   flex-direction: row;
   min-height: 100vh;
-  max-width: 100vw;
   align-items: center;
   justify-content: center;
   //about me
@@ -185,6 +290,21 @@ nav {
     width: 437px;
     height: 301px;
   }
+  @media screen and (max-width: 1000px) {
+    .image-about {
+      width: 350px;
+      height: 217px;
+    }
+  }
+
+  @media screen and (max-width: 750px) {
+    flex-direction: column;
+    padding: 0 20px;
+    .image-about {
+      width: 437px;
+      height: 301px;
+    }
+  }
 }
 
 //skillset
@@ -197,16 +317,34 @@ nav {
   h1 {
     text-align: center;
   }
+  @media screen and (max-width: 750px) {
+    margin: 0 10px;
+    &.daycode {
+      display: none;
+    }
+  }
   .skills {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 25px;
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width: 1000px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    @media screen and (max-width: 750px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media screen and (max-width: 420px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
 
     .skill {
       display: flex;
       justify-content: center;
-      width: 199px;
-      height: 139px;
+      padding: 20px;
       border: 2px solid $purple;
       align-items: center;
       cursor: pointer;
@@ -235,6 +373,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 
   h1 {
     font-weight: 700;
@@ -249,12 +388,20 @@ nav {
     grid-template-columns: repeat(3, 1fr);
     gap: 49px;
     margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    @media screen and (max-width: 900px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media screen and (max-width: 650px) {
+      grid-template-columns: repeat(1, 1fr);
+      text-align: center;
+    }
     .project {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       text-align: center;
-      width: 328px;
       border-radius: 5px;
       align-items: center;
       padding: 10px;
@@ -268,7 +415,7 @@ nav {
         display: flex;
         flex-direction: column;
         img {
-          width: 328px;
+          width: 100%;
         }
 
         .card-title {
@@ -331,14 +478,24 @@ nav {
   flex-direction: column;
   margin-left: 40px;
   margin-right: 40px;
+  h1 {
+    width: 100%;
+    text-align: center;
+  }
   p {
-    width: 700px;
+    width: 100%;
     text-align: center;
   }
   .blogs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+    @media screen and (max-width: 900px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media screen and (max-width: 650px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
     .blog-card {
       display: flex;
       flex-direction: column;
@@ -396,6 +553,9 @@ nav {
 /////////////////////////////////////
 /////////////Footer//////////////////
 footer.footer {
+  @media screen and (max-width: 650px) {
+    display: none;
+  }
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
