@@ -104,13 +104,11 @@ nav {
     }
 
     .menu-responsive {
-      display: flex;
-      justify-content: center;
-      align-items: center;
       position: relative;
       // bottom: 0;
       padding: 10px;
       display: inline-block;
+      text-align: left;
       .mobile {
         font-size: 30px;
         cursor: pointer;
@@ -122,10 +120,9 @@ nav {
           display: flex;
           right: 0;
           flex-direction: column;
-          justify-content: center;
-          align-items: center;
           background-color: #1f1d33;
           .navlink {
+            text-align: center;
             padding: 10px;
             background: none;
             display: flex;
@@ -302,8 +299,8 @@ nav {
     flex-direction: column;
     padding: 0 20px;
     .image-about {
-      width: 437px;
-      height: 301px;
+      width: 350px;
+      height: 217px;
     }
   }
 }
