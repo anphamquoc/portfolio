@@ -104,11 +104,13 @@ nav {
     }
 
     .menu-responsive {
-      display: block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       position: relative;
-      bottom: 0;
-      padding-right: 20px;
-      padding-top: 20px;
+      // bottom: 0;
+      padding: 10px;
+      display: inline-block;
       .mobile {
         font-size: 30px;
         cursor: pointer;
@@ -117,9 +119,8 @@ nav {
         display: none;
         &.active {
           position: absolute;
-          right: 0;
-          bottom: 150;
           display: flex;
+          right: 0;
           flex-direction: column;
           justify-content: center;
           align-items: center;
