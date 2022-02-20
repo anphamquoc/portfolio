@@ -20,6 +20,8 @@ function App() {
     }, 1000);
   }, []);
   if (loading) {
+    //style image center
+
     return (
       <img
         src={Loading}
@@ -27,8 +29,8 @@ function App() {
         style={{
           position: "absolute",
           left: "50%",
-          top: "40%",
-          translate: "(-50%, -50%)",
+          top: "50%",
+          transform: "translate(-50%, -50%)",
         }}
       />
     );
