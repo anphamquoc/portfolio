@@ -1,28 +1,32 @@
 [
   {
-    "image": "/skill/apollo.svg",
-    "description": "apollo"
-  },
-  {
     "image": "/skill/cpp.svg",
     "description": "cpp"
   },
+  { "image": "/skill/html.svg", "description": "html" },
   {
     "image": "/skill/css.svg",
     "description": "css"
   },
+  { "image": "/skill/javascript.svg", "description": "javascript" },
+  { "image": "/skill/typescript.svg", "description": "typescript" },
+  { "image": "/skill/mysql.svg", "description": "mysql" },
+  { "image": "/skill/postgresql.svg", "description": "postgresql" },
+  { "image": "/skill/mongodb.svg", "description": "mongodb" },
+  {
+    "image": "/skill/apollo.svg",
+    "description": "apollo"
+  },
+  { "image": "/skill/graphql.svg", "description": "graphql" },
+  { "image": "/skill/react.svg", "description": "react" },
+  { "image": "/skill/nextjs.svg", "description": "nextjs" },
+  { "image": "/skill/nodejs.svg", "description": "nodejs" },
+  { "image": "/skill/nestjs.svg", "description": "nestjs" },
+  { "image": "/skill/tailwindcss.svg", "description": "tailwindcss" },
+  { "image": "/skill/redux.svg", "description": "redux" },
   {
     "image": "/skill/firebase.svg",
     "description": "firebase"
   },
-  { "image": "/skill/git.svg", "description": "git" },
-  { "image": "/skill/graphql.svg", "description": "graphql" },
-  { "image": "/skill/html.svg", "description": "html" },
-  { "image": "/skill/mongodb.svg", "description": "mongodb" },
-  { "image": "/skill/javascript.svg", "description": "javascript" },
-  { "image": "/skill/mysql.svg", "description": "mysql" },
-  { "image": "/skill/nextjs.svg", "description": "nextjs" },
-  { "image": "/skill/nodejs.svg", "description": "nodejs" },
-  { "image": "/skill/postgresql.svg", "description": "postgresql" },
-  { "image": "/skill/react.svg", "description": "react" }
+  { "image": "/skill/git.svg", "description": "git" }
 ]

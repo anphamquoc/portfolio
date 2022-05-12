@@ -10,5 +10,6 @@
   { "image": "./tools/vscode.svg", "description": "vscode" },
   { "image": "/skill/insomia.svg", "description": "insomia" },
   { "image": "./tools/figma.svg", "description": "figma" },
-  { "image": "./tools/notion.svg", "description": "notion" }
+  { "image": "./tools/notion.svg", "description": "notion" },
+  { "image": "./tools/docker.svg", "description": "docker" }
 ]
