@@ -1,6 +1,6 @@
 import React from "react";
-import CV from "../../assets/resume.jpg";
-import CVPdf from "../../assets/resume.pdf";
+import CV from "../../assets/CV.png";
+import CVPdf from "../../assets/CV.pdf";
 
 const Resume = () => {
   return (
