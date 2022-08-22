@@ -1,5 +1,17 @@
 [
   {
+    "image": "./projects/jewelry_website.webp",
+    "title": "Jewelry Website",
+    "description": "This is a website for a jewelry store. It is a single page application that allows the user to add, edit, and delete jewelry. It is built with React and Redux. The user can also search for jewelry by name, price, or type.",
+    "link": "https://github.com/Hunga9k50doker/Shop-trang-suc"
+  },
+  {
+    "image": "./projects/watch_website.webp",
+    "title": "Watch Website",
+    "description": "This is a website for a watch store. It is a single page application that allows the user to add, edit, and delete watches. It is built with React and Redux. The user can also search for watches by name, price, or type.",
+    "link": "https://github.com/hello5423/travel-website"
+  },
+  {
     "image": "./projects/chatapp.png",
     "title": "Chat Website",
     "description": "Website allows you and your friend create rooms and invite people to join room, using Firebase, React to build",
